@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body
+{
+    background-image: url(images/font.jpg);
+    background-size: cover;
+    
+}
+
+main.Conteneur,.section3,footer
+{
+    background-color: rgb(240, 253, 253,0.7);
+    margin-left: 200px;
+    margin-right: 200px;
+    
+   
+}
+
+.Conteneur1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+header
+{
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    font-family: serif;
+   
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+   
+}
+
+a.link1,a.link2,a.link3,a.link4
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   
+}
+
+a.link2
+{
+    color: orange;
+   
+}
+
+.devise
+{
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+   
+}
+
+.section1 h2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.section1
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+   
+}
+
+.section2
+{
+    padding: 30px;
+    text-align: justify;
+   
+}
+
+.section2 h2
+{
+    margin-top: 10px;
+   
+}
+
+.section2 h2
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+   
+}
+
+.section3
+{
+    padding-bottom: 30px;
+   
+}
+
+.ligne-hor h1
+{
+    padding: 10px 60px 0;
+    text-align: right;
+}
+
+.mes-images
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 20px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.image
+{
+    width: 150px;
+    height: auto;
+   
+}
+
+.para
+{
+    color: rgb(209, 43, 43);
+
+}
+
+footer
+{
+    margin-top: 2px;
+    padding: 30px;
+
+}
+
+.copyright
+{
+    text-align: right;
+
+}
+
+
+
+@media all and (max-width:1000px) {
+    body
+    {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    header
+    {
+        padding: 30px;
+        margin: auto;
+        text-align: center;
+        font-family: serif;
+       
+    }
+
+    nav
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px;
+        border-bottom: 2px solid;
+        border-top: 2px solid;
+    
+    }
+
+    .section1 h2
+    {
+        margin: 5px;
+    
+    }
+
+    .Conteneur1
+    {
+        display: block;
+        width: 500px;
+        margin: auto;
+    }
+    
+    main.Conteneur,.section3,footer
+    {
+        background-color: rgba(245, 243, 243, 0.6);
+        margin: 0;
+        width: 100%;
+    }
+
+    .ligne-hor h1
+    {
+        padding: 10px 60px 0;
+        text-align: center;
+    }
+
+    .mes-images
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding: 20px;
+        margin:0 5px;
+        text-align: center;
+    }
+
+    footer
+    {
+        padding: 10px;
+    }
+
+    .copyright
+    {
+        text-align: center;
+
+    }
+}
