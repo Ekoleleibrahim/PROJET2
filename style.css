@@ -9,6 +9,7 @@ body
 {
     background-image: url(images/font.jpg);
     background-size: cover;
+    width: auto;
     
 }
 
@@ -123,6 +124,7 @@ a.link2
 
 .mes-images
 {
+    width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -167,6 +169,8 @@ footer
         box-sizing: border-box;
         overflow-x: hidden;
         width: auto;
+        background-image: none;
+        background-color: rgba(124, 125, 126, 0.805);
     }
 
     header
@@ -213,7 +217,7 @@ footer
 
     .ligne-hor h3
     {
-        padding: 10px 50px 0;
+        padding: 10px 20px 0;
         text-align: left;
     }
 
