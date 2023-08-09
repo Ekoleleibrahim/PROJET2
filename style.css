@@ -231,6 +231,7 @@ footer
         padding: 20px;
         margin:0 5px;
         text-align: center;
+        overflow-x: hidden;
     }
 
     footer
