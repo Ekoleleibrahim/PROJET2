@@ -166,6 +166,7 @@ footer
     {
         box-sizing: border-box;
         overflow-x: hidden;
+        width: auto;
     }
 
     header
@@ -199,7 +200,7 @@ footer
     .Conteneur1
     {
         display: block;
-        width: 500px;
+        width: auto;
         margin: auto;
     }
     
@@ -207,13 +208,13 @@ footer
     {
         background-color: rgba(245, 243, 243, 0.6);
         margin: 0;
-        width: 100%;
+        width: auto;
     }
 
     .ligne-hor h1
     {
-        padding: 10px 60px 0;
-        text-align: center;
+        padding: 10px 30px 0;
+        text-align: left;
     }
 
     .mes-images
@@ -221,7 +222,7 @@ footer
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 5px;
         padding: 20px;
         margin:0 5px;
