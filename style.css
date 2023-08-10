@@ -157,7 +157,7 @@ footer
 
 .copyright
 {
-    text-align: right;
+    text-align: center;
 
 }
 
@@ -225,13 +225,13 @@ footer
     {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: flex-start;
         gap: 5px;
         padding: 20px;
         margin:0 5px;
         text-align: center;
-        overflow-x: hidden;
     }
 
     footer
